@@ -1,0 +1,21 @@
+name: Feature request
+description: Something you'd like Job Docket to do.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to do?
+      description: Tell us about the job or the situation, not just the button you'd like. It helps us build the right thing.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+  - type: input
+    id: trade
+    attributes:
+      label: Your trade
+      description: Optional.
+      placeholder: "Electrician, plumber, lift engineer..."

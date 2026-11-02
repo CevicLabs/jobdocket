@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in Job Docket doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Issues here are public, so please leave out client names, addresses and other personal details.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a job
+        2. Tap ...
+        3. ...
+  - type: input
+    id: version
+    attributes:
+      label: Job Docket version
+      description: Setup → About, or the Play Store page.
+      placeholder: "1.5.2"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Phone and Android version
+      placeholder: "Samsung Galaxy A54, Android 15"
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Please blur any client details first.

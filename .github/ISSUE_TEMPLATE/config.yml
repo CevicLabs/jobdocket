@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Email support
+    url: mailto:dev@ceviclabs.com?subject=Job%20Docket
+    about: For anything you'd rather not post in public.
+  - name: Privacy policy
+    url: https://ceviclabs.com/jobdocket/privacy/
+    about: How Job Docket handles your data.
